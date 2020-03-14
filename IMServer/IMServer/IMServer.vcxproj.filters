@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="gate_server.cpp">
+      <Filter>gate_server</Filter>
+    </ClCompile>
+    <ClCompile Include="login_server.cpp">
+      <Filter>login_server</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gate_server">
+      <UniqueIdentifier>{47e30e93-241f-4cab-8698-46f62774236d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message">
+      <UniqueIdentifier>{13df6b4a-ec07-4e0c-8717-60631f4f2248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="login_server">
+      <UniqueIdentifier>{8c846667-fcb4-44de-bda9-9622e70cf68f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gate_server.h">
+      <Filter>gate_server</Filter>
+    </ClInclude>
+    <ClInclude Include="c2s_message.h">
+      <Filter>message</Filter>
+    </ClInclude>
+    <ClInclude Include="result_code.h">
+      <Filter>message</Filter>
+    </ClInclude>
+    <ClInclude Include="s2c_message.h">
+      <Filter>message</Filter>
+    </ClInclude>
+    <ClInclude Include="login_server.h">
+      <Filter>login_server</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+</Project>

@@ -274,6 +274,7 @@ Makefile: ..\IMClient\IMClient.pro D:\QT\5.14.1\msvc2017_64\mkspecs\win32-msvc\q
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\resolve_config.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\exclusive_builds_post.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\default_post.prf \
+		D:\QT\5.14.1\msvc2017_64\mkspecs\features\win32\console.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\qml_debug.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\precompile_header.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\warn_on.prf \
@@ -285,7 +286,6 @@ Makefile: ..\IMClient\IMClient.pro D:\QT\5.14.1\msvc2017_64\mkspecs\win32-msvc\q
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\uic.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\qmake_use.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\file_copies.prf \
-		D:\QT\5.14.1\msvc2017_64\mkspecs\features\win32\windows.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\testcase_targets.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\exceptions.prf \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\yacc.prf \
@@ -294,12 +294,10 @@ Makefile: ..\IMClient\IMClient.pro D:\QT\5.14.1\msvc2017_64\mkspecs\win32-msvc\q
 		D:\QT\5.14.1\msvc2017_64\lib\Qt5Widgets.prl \
 		D:\QT\5.14.1\msvc2017_64\lib\Qt5Gui.prl \
 		D:\QT\5.14.1\msvc2017_64\lib\Qt5Core.prl \
-		D:\QT\5.14.1\msvc2017_64\lib\qtmain.prl \
 		D:\QT\5.14.1\msvc2017_64\mkspecs\features\build_pass.prf \
 		D:\QT\5.14.1\msvc2017_64\lib\Qt5Widgetsd.prl \
 		D:\QT\5.14.1\msvc2017_64\lib\Qt5Guid.prl \
-		D:\QT\5.14.1\msvc2017_64\lib\Qt5Cored.prl \
-		D:\QT\5.14.1\msvc2017_64\lib\qtmaind.prl
+		D:\QT\5.14.1\msvc2017_64\lib\Qt5Cored.prl
 	$(QMAKE) -o Makefile ..\IMClient\IMClient.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\spec_pre.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\common\angle.conf:
@@ -491,6 +489,7 @@ D:\QT\5.14.1\msvc2017_64\mkspecs\features\win32\default_pre.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\resolve_config.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\exclusive_builds_post.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\default_post.prf:
+D:\QT\5.14.1\msvc2017_64\mkspecs\features\win32\console.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\qml_debug.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\precompile_header.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\warn_on.prf:
@@ -502,7 +501,6 @@ D:\QT\5.14.1\msvc2017_64\mkspecs\features\win32\opengl.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\uic.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\qmake_use.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\file_copies.prf:
-D:\QT\5.14.1\msvc2017_64\mkspecs\features\win32\windows.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\testcase_targets.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\exceptions.prf:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\yacc.prf:
@@ -511,12 +509,10 @@ D:\QT\5.14.1\msvc2017_64\mkspecs\features\lex.prf:
 D:\QT\5.14.1\msvc2017_64\lib\Qt5Widgets.prl:
 D:\QT\5.14.1\msvc2017_64\lib\Qt5Gui.prl:
 D:\QT\5.14.1\msvc2017_64\lib\Qt5Core.prl:
-D:\QT\5.14.1\msvc2017_64\lib\qtmain.prl:
 D:\QT\5.14.1\msvc2017_64\mkspecs\features\build_pass.prf:
 D:\QT\5.14.1\msvc2017_64\lib\Qt5Widgetsd.prl:
 D:\QT\5.14.1\msvc2017_64\lib\Qt5Guid.prl:
 D:\QT\5.14.1\msvc2017_64\lib\Qt5Cored.prl:
-D:\QT\5.14.1\msvc2017_64\lib\qtmaind.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\IMClient\IMClient.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 

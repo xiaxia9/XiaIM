@@ -17,6 +17,7 @@ public:
 
 public slots:
     bool Login();
+    bool RecvLoginAck(char* pPackage);
 
 private:
     QPushButton *m_pButtonLogin;
